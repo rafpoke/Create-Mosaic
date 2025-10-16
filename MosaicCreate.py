@@ -38,7 +38,7 @@ base_image = <TILE_IMAGE_PATH>
 out_image = <OUTPUT_IMAGE_PATH>
 
 # open the image that will be made into mosaic
-og_enter = Image.open("CretBase.jpeg")
+og_enter = Image.open(input_image)
 cols, rows = og_enter.size
 
 # compressed the image to make the mosaic more clear
